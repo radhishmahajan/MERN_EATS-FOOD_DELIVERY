@@ -19,7 +19,7 @@ const server=http.createServer(app)
 
 const io=new Server(server,{
    cors:{
-    origin:"http://localhost:5173",
+    origin:"srv-d90i9rvlk1mc73ajt2sg",
     credentials:true,
     methods:['POST','GET']
 }
