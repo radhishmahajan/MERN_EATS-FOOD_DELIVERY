@@ -19,7 +19,7 @@ const server=http.createServer(app)
 
 const io=new Server(server,{
    cors:{
-    origin:"srv-d90i9rvlk1mc73ajt2sg",
+    origin:"https://mern-eats-food-delivery-frontend.onrender.com",
     credentials:true,
     methods:['POST','GET']
 }
