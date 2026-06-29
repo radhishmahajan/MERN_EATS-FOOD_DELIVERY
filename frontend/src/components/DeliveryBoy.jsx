@@ -23,7 +23,7 @@ const [message,setMessage]=useState("")
 if(!socket || userData.role!=="deliveryBoy") return
 let watchId
 if(navigator.geolocation){
-watchId=navigator.geolocation.watchPosition((position)=>{
+watchId=navigator.geolocation.getCurrentPosition((position)=>{
     const latitude=position.coords.latitude
     const longitude=position.coords.longitude
     setDeliveryBoyLocation({lat:latitude,lon:longitude})
