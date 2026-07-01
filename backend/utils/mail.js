@@ -1,6 +1,6 @@
 import dns from "dns";
 dns.setDefaultResultOrder("ipv4first");
-import { sendOtpMail } from "../utils/mail.js";
+
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 
